@@ -1,0 +1,59 @@
+
+
+/*__________________________CAROUSEL_________________________*/
+
+body{
+  width: 100%;
+  height: auto;
+  background-color: #5b5653;
+}
+
+/* Slideshow container */
+
+.container {
+  width: 540px;
+  margin: 40px auto; 
+  overflow: auto;
+
+}
+.carousel-inner{
+  width: 500px;
+  height: 312px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  padding: 3px;
+  
+}
+
+
+
+/*images*/
+
+.carousel-inner img{
+  width: 500px;
+  height:312px;
+  display: none;
+}
+
+.carousel-inner img.active{
+  display: inline-block;
+}
+/* Next & previous buttons */
+
+
+.prev, .next {
+  position: absolute;
+  margin-top: 130px;
+  cursor: pointer;
+  float: left;
+}
+
+
+
+.prev{
+  margin-left:-551px;
+}
+
+
+
